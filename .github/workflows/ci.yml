@@ -2,6 +2,7 @@ name: CI Pipeline
 
 on:
   # Manual trigger for the workflow
+  # Triggering CI pipeline run for SIT722 7.1P submission
   workflow_dispatch:
   push:
     branches: [main]
